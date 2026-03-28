@@ -199,6 +199,57 @@
   line-height: 1;
 }
 
+.search-card {
+  padding: 2.2rem 2.2rem 1.8rem;
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+  border: 1px solid #d7e0e8;
+  border-radius: 18px;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.4rem;
+}
+
+.search-block {
+  padding: 1.15rem 1.15rem 1.05rem;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #dbe3ea;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+}
+
+.search-block h3 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  font-size: 0.74rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.search-items {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.search-item {
+  margin: 0;
+  padding-top: 0.65rem;
+  border-top: 1px solid #edf2f7;
+  color: #1f2937;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.search-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
 @media (max-width: 720px) {
   .site-header .wrapper {
     flex-direction: column;
@@ -214,5 +265,9 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.2rem;
+  }
+
+  .search-grid {
+    grid-template-columns: 1fr;
   }
 }

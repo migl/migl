@@ -4,4 +4,4 @@ lang: en
 permalink: /
 ---
 
-Coming soon.
+{% include profile_content.html lang=page.lang %}

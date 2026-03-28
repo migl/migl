@@ -10,6 +10,7 @@ hero:
     - PhD in HCI
 sections:
   highlights: Profile
+  search: Job Search Criteria
   experience: Experience
   engineering: Engineering Perspective
   education: Education
@@ -149,3 +150,18 @@ languages:
   - name: Spanish
     level: Native
     usage: Native language and used at Moove-IT
+search:
+  ideal:
+    label: Ideal
+    items:
+      - Senior backend or tech lead scope.
+      - Stack centered on Rust or Go.
+      - A young but high-caliber product with strong technical depth.
+      - Hybrid setup in Paris.
+  workable:
+    label: Also open to
+    items:
+      - Architect-style role.
+      - Ruby, Python, or TypeScript if the technical problems are compelling.
+      - A more established product with an ambitious roadmap.
+      - Fully remote for a European or UK company.

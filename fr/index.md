@@ -4,4 +4,4 @@ lang: fr
 permalink: /fr/
 ---
 
-Bientôt disponible.
+{% include profile_content.html lang=page.lang %}

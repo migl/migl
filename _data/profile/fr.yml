@@ -10,6 +10,7 @@ hero:
     - PhD en IHM
 sections:
   highlights: Profil
+  search: Recherche
   experience: Expérience
   engineering: Vision de l’ingénierie
   education: Formation
@@ -149,3 +150,18 @@ languages:
   - name: Espagnol
     level: Natif
     usage: Langue maternelle et pratiquée chez Moove-IT
+search:
+  ideal:
+    label: Idéalement
+    items:
+      - Poste senior backend ou tech lead.
+      - Stack centrée sur Rust ou Go.
+      - Produit encore jeune avec une forte profondeur technique.
+      - Hybride à Paris.
+  workable:
+    label: Envisageable
+    items:
+      - Poste d’architecte.
+      - Ruby, Python ou TypeScript si le niveau technique est intéressant.
+      - Produit plus installé avec une roadmap ambitieuse.
+      - Full remote pour une entreprise européenne ou britannique.
