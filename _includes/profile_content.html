@@ -58,4 +58,43 @@
       </div>
     </div>
   </div>
+
+  <div class="card">
+    <h2>{{ profile.sections.experience }}</h2>
+    {% for job in profile.experience %}
+    <div class="entry">
+      <div class="entry-heading">
+        <h3>{{ job.title }}</h3>
+        <p class="meta">{{ job.period }}{% if job.duration %} · {{ job.duration }}{% endif %}</p>
+      </div>
+      <p class="entry-subtitle">
+        <a href="{{ job.company_url }}">{{ job.company }}</a>{% if job.location %} · {{ job.location }}{% endif %}
+      </p>
+      <p>{{ job.context }}</p>
+      <ul>
+        {% for item in job.bullets %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <div class="stack-line">
+        <strong>Stack:</strong>
+        <ul class="stack-list">
+          {% for item in job.stack %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% if job.links %}
+      <div class="entry-note link-list">
+        {% for link in job.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if job.note %}
+      <div class="entry-note">{{ job.note }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
 </div>

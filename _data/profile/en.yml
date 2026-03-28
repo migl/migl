@@ -10,6 +10,7 @@ hero:
     - PhD in HCI
 sections:
   highlights: Profile
+  experience: Experience
   engineering: Engineering Perspective
 highlights:
   - Built and scaled backend systems in Go and Ruby, from consulting projects to a high-traffic logistics SaaS platform.
@@ -49,3 +50,72 @@ engineering:
     - Go deeper into a language or technical approach that offers more direct control over system behavior.
     - Currently learning Rust through personal projects and exploratory snippets.
     - Specialize further in service-oriented and event-driven architectures, with a focus on building highly available and reliable systems under demanding load.
+experience:
+  - period: Since Nov 2022
+    duration: 3 years 6 months
+    company: Shipup
+    company_url: https://shipup.co
+    title: Senior Backend Engineer
+    location: Paris, France
+    context: B2B e-commerce SaaS focused on shipment tracking and post-purchase customer experience.
+    bullets:
+      - Co-designed and built a Go-based tracking ingestion service that doubled platform load capacity.
+      - Led the Rails 6 to Rails 8 modernization of a large monolith with a complex dependency graph and tight version constraints.
+      - Defined backend engineering standards for tests, code structure, and linting that were adopted by the team.
+    stack:
+      - Ruby on Rails
+      - Go
+      - PostgreSQL
+      - Redis
+      - Sidekiq
+      - Docker
+      - Kubernetes
+      - GCP
+      - Datadog
+      - Elasticsearch
+      - Node.js
+      - TypeScript
+      - React
+    note: A formative experience on a rich SaaS product with complex backend constraints.
+  - period: Mar 2018 to May 2022
+    duration: 4 years
+    company: LRI / LISN
+    company_url: https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/
+    title: Doctoral Researcher
+    location: Paris-Saclay, France
+    context: Human-computer interaction research, after a Master's internship that led into a PhD inside a multidisciplinary team.
+    bullets:
+      - Conducted user studies to guide research directions and validate design choices.
+      - Designed and built the applications used to demonstrate the work, handling both frontend and backend implementation.
+      - Published three papers at ACM CHI, a major conference in the field.
+      - Taught HCI courses for one academic year at Paris-Saclay.
+    stack:
+      - Ruby on Rails
+      - Vue.js
+      - Python
+      - NumPy
+      - JavaScript
+    links:
+      - label: ACM profile
+        url: https://dl.acm.org/profile/99659526442
+  - period: Aug 2011 to Aug 2017
+    duration: 6 years
+    company: Qubika
+    company_url: https://qubika.com/
+    title: Software Developer
+    location: Montevideo, Uruguay
+    context: Consulting environment with many US clients. At the time the company was Moove-IT, later merged to become Qubika.
+    bullets:
+      - Built a broad range of web, mobile, and API products for client work.
+      - Gradually took ownership of solution architecture.
+      - Contributed to Ruby engineering culture inside the team.
+      - Led a team of eight people during the final two and a half years.
+    stack:
+      - Ruby on Rails
+      - MySQL
+      - PostgreSQL
+      - Redis
+      - Sidekiq
+      - AngularJS
+      - AWS
+      - Heroku

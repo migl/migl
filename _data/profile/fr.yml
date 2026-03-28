@@ -10,6 +10,7 @@ hero:
     - PhD en IHM
 sections:
   highlights: Profil
+  experience: Expérience
   engineering: Vision de l’ingénierie
 highlights:
   - Construction et montée en charge de systèmes backend en Go et Ruby, du conseil au SaaS logistique à fort trafic.
@@ -49,3 +50,72 @@ engineering:
     - Approfondir un langage ou une approche technique offrant un contrôle plus direct sur le comportement du système.
     - J’apprends actuellement Rust à travers des projets personnels et des snippets d’exploration.
     - Me spécialiser davantage dans les architectures orientées services et event-driven, avec un intérêt particulier pour les systèmes hautement disponibles et fiables sous forte charge.
+experience:
+  - period: Depuis nov. 2022
+    duration: 3 ans 6 mois
+    company: Shipup
+    company_url: https://shipup.co
+    title: Senior Backend Engineer
+    location: Paris, France
+    context: SaaS e-commerce B2B dédié au suivi de livraison et à l’expérience post-achat.
+    bullets:
+      - Co-construction et développement d’un service d’ingestion de tracking en Go ayant permis de doubler la capacité de charge.
+      - Pilotage de la modernisation Rails 6 vers Rails 8 d’un monolithe conséquent avec graphe de dépendances complexe et fortes contraintes de versions.
+      - Définition des standards d’ingénierie backend sur les tests, l’organisation du code et le linting, ensuite adoptés par l’équipe.
+    stack:
+      - Ruby on Rails
+      - Go
+      - PostgreSQL
+      - Redis
+      - Sidekiq
+      - Docker
+      - Kubernetes
+      - GCP
+      - Datadog
+      - Elasticsearch
+      - Node.js
+      - TypeScript
+      - React
+    note: Expérience majeure sur un SaaS riche avec de vraies contraintes backend.
+  - period: Mars 2018 à mai 2022
+    duration: 4 ans
+    company: LRI / LISN
+    company_url: https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/
+    title: Doctoral Researcher
+    location: Paris-Saclay, France
+    context: Recherche en interaction humain-machine, dans la continuité d’un stage de master devenu doctorat au sein d’une équipe pluridisciplinaire.
+    bullets:
+      - Conduite de user studies pour orienter les solutions et valider les choix.
+      - Conception et développement des applications permettant d’exposer les travaux, avec prise en charge du front et du back.
+      - Trois publications à ACM CHI, conférence de référence du domaine.
+      - Une année d’enseignement en IHM à Paris-Saclay.
+    stack:
+      - Ruby on Rails
+      - Vue.js
+      - Python
+      - NumPy
+      - JavaScript
+    links:
+      - label: Profil ACM
+        url: https://dl.acm.org/profile/99659526442
+  - period: Août 2011 à août 2017
+    duration: 6 ans
+    company: Qubika
+    company_url: https://qubika.com/
+    title: Software Developer
+    location: Montevideo, Uruguay
+    context: Environnement de conseil avec de nombreux clients américains. À l’époque, l’entreprise s’appelait encore Moove-IT avant de devenir Qubika.
+    bullets:
+      - Développement d’un grand nombre de produits web, mobile et API pour des clients.
+      - Prise en main progressive de l’architecture des solutions.
+      - Contribution à la culture Ruby dans l’équipe tech.
+      - Lead d’une équipe de huit personnes sur les deux dernières années et demie.
+    stack:
+      - Ruby on Rails
+      - MySQL
+      - PostgreSQL
+      - Redis
+      - Sidekiq
+      - AngularJS
+      - AWS
+      - Heroku
