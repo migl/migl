@@ -97,4 +97,27 @@
     </div>
     {% endfor %}
   </div>
+
+  <div class="card">
+    <h2>{{ profile.sections.education }}</h2>
+    <div class="compact-list">
+      {% for item in profile.education %}
+      <div class="compact-entry education-entry">
+        <div class="entry-heading">
+          <h3>{{ item.degree }}</h3>
+          <p class="meta">{{ item.year }}</p>
+        </div>
+        <p><strong>{{ item.school }}</strong></p>
+        <p>{{ item.details }}</p>
+        {% if item.note %}
+        <div class="entry-note">
+          {{ item.note.prefix }}
+          <a href="{{ item.note.url }}">{{ item.note.linked_text }}</a>,
+          {{ item.note.suffix }}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

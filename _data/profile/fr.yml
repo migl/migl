@@ -12,6 +12,7 @@ sections:
   highlights: Profil
   experience: Expérience
   engineering: Vision de l’ingénierie
+  education: Formation
 highlights:
   - Construction et montée en charge de systèmes backend en Go et Ruby, du conseil au SaaS logistique à fort trafic.
   - Pilotage d’une modernisation Rails 6 vers Rails 8 sur un monolithe de plus de 250k lignes.
@@ -119,3 +120,21 @@ experience:
       - AngularJS
       - AWS
       - Heroku
+education:
+  - year: 2022
+    degree: Doctorat
+    school: Université Paris-Saclay
+    details: Informatique, interaction humain-machine
+    note:
+      prefix: Thèse dirigée par
+      linked_text: Michel Beaudouin-Lafon
+      url: https://www.lemonde.fr/blog/binaire/2025/04/29/une-vie-en-interaction-itineraire-dun-pionnier-de-lihm/
+      suffix: figure de référence en IHM.
+  - year: 2018
+    degree: Master en informatique
+    school: Université Paris-Sud
+    details: Informatique
+  - year: 2014
+    degree: Diplôme d’ingénieur en informatique
+    school: Universidad de la República
+    details: Informatique, Montevideo, Uruguay

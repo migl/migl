@@ -12,6 +12,7 @@ sections:
   highlights: Profile
   experience: Experience
   engineering: Engineering Perspective
+  education: Education
 highlights:
   - Built and scaled backend systems in Go and Ruby, from consulting projects to a high-traffic logistics SaaS platform.
   - Led a Rails 6 to Rails 8 modernization on a large monolith of more than 250k lines.
@@ -119,3 +120,21 @@ experience:
       - AngularJS
       - AWS
       - Heroku
+education:
+  - year: 2022
+    degree: PhD
+    school: Université Paris-Saclay
+    details: Computer Science, Human-Computer Interaction
+    note:
+      prefix: Thesis supervised by
+      linked_text: Michel Beaudouin-Lafon
+      url: https://www.lemonde.fr/blog/binaire/2025/04/29/une-vie-en-interaction-itineraire-dun-pionnier-de-lihm/
+      suffix: a major figure in HCI.
+  - year: 2018
+    degree: Master's degree
+    school: Université Paris-Sud
+    details: Computer Science
+  - year: 2014
+    degree: Engineering degree
+    school: Universidad de la República
+    details: Computer Science, Montevideo, Uruguay

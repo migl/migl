@@ -152,6 +152,12 @@
   color: #475569;
 }
 
+.education-entry + .education-entry {
+  margin-top: 2rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid #e5e7eb;
+}
+
 @media (max-width: 720px) {
   .site-header .wrapper {
     flex-direction: column;
