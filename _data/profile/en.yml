@@ -13,6 +13,7 @@ sections:
   experience: Experience
   engineering: Engineering Perspective
   education: Education
+  languages: Languages
 highlights:
   - Built and scaled backend systems in Go and Ruby, from consulting projects to a high-traffic logistics SaaS platform.
   - Led a Rails 6 to Rails 8 modernization on a large monolith of more than 250k lines.
@@ -138,3 +139,13 @@ education:
     degree: Engineering degree
     school: Universidad de la República
     details: Computer Science, Montevideo, Uruguay
+languages:
+  - name: English
+    level: Bilingual professional proficiency
+    usage: Used daily at Moove-IT and during the PhD
+  - name: French
+    level: Bilingual professional proficiency
+    usage: Used daily at Shipup and during the PhD
+  - name: Spanish
+    level: Native
+    usage: Native language and used at Moove-IT

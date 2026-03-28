@@ -120,4 +120,17 @@
       {% endfor %}
     </div>
   </div>
+
+  <div class="card">
+    <h2>{{ profile.sections.languages }}</h2>
+    <div class="compact-list">
+      {% for item in profile.languages %}
+      <div class="compact-entry language-entry">
+        <span class="language-pill">{{ item.name }}</span>
+        <span class="language-pill language-level">{{ item.level }}</span>
+        <span class="language-note">{{ item.usage }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

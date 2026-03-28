@@ -13,6 +13,7 @@ sections:
   experience: Expérience
   engineering: Vision de l’ingénierie
   education: Formation
+  languages: Langues
 highlights:
   - Construction et montée en charge de systèmes backend en Go et Ruby, du conseil au SaaS logistique à fort trafic.
   - Pilotage d’une modernisation Rails 6 vers Rails 8 sur un monolithe de plus de 250k lignes.
@@ -138,3 +139,13 @@ education:
     degree: Diplôme d’ingénieur en informatique
     school: Universidad de la República
     details: Informatique, Montevideo, Uruguay
+languages:
+  - name: Anglais
+    level: Bilingue professionnel
+    usage: Pratiqué au quotidien chez Moove-IT et pendant le PhD
+  - name: Français
+    level: Bilingue professionnel
+    usage: Pratiqué au quotidien chez Shipup et pendant le PhD
+  - name: Espagnol
+    level: Natif
+    usage: Langue maternelle et pratiquée chez Moove-IT
