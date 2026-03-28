@@ -1,0 +1,13 @@
+{% assign lang = include.lang | default: 'en' %}
+{% assign profile = site.data.profile[lang] %}
+
+<div class="profile-content">
+  <div class="profile-hero card">
+    <p class="hero-summary">{{ profile.hero.summary }}</p>
+    <ul class="badge-list">
+      {% for badge in profile.hero.badges %}
+      <li>{{ badge }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

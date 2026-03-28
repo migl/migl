@@ -1,0 +1,10 @@
+hero:
+  role: Senior Backend Engineer
+  location: Paris, France
+  summary: Backend-focused engineer with experience across B2B SaaS, research, and consulting. I build reliable systems, raise engineering standards, and work best on technically ambitious products with clear direction.
+  badges:
+    - Go
+    - Rust
+    - Backend Systems
+    - B2B SaaS
+    - PhD in HCI

@@ -1,0 +1,10 @@
+hero:
+  role: Senior Backend Engineer
+  location: Paris, France
+  summary: Ingénieur orienté backend avec une expérience en SaaS B2B, en recherche et en conseil. Je conçois des systèmes fiables, je fais monter le niveau d’ingénierie, et je cherche des produits techniquement ambitieux avec une direction claire.
+  badges:
+    - Go
+    - Rust
+    - Systèmes backend
+    - SaaS B2B
+    - PhD en IHM

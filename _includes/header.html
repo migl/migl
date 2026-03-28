@@ -1,0 +1,19 @@
+<header class="site-header" role="banner">
+  {% assign lang = page.lang | default: 'en' %}
+  {% assign profile = site.data.profile[lang] %}
+  <div class="wrapper">
+    <div class="site-branding">
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+        {{ site.title | escape }}
+      </a>
+      <p class="site-role">{{ profile.hero.role }}</p>
+      <p class="site-location">
+        {{ profile.hero.location }}{% if site.email_obfuscated %} · {{ site.email_obfuscated }}{% endif %}
+      </p>
+    </div>
+    <nav class="site-lang-nav" aria-label="Language selector">
+      <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' %}aria-current="page"{% endif %}>English</a>
+      <a href="{{ '/fr/' | relative_url }}" {% if page.lang == 'fr' %}aria-current="page"{% endif %}>Français</a>
+    </nav>
+  </div>
+</header>
