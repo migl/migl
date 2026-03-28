@@ -8,3 +8,44 @@ hero:
     - Backend Systems
     - B2B SaaS
     - PhD in HCI
+sections:
+  highlights: Profile
+  engineering: Engineering Perspective
+highlights:
+  - Built and scaled backend systems in Go and Ruby, from consulting projects to a high-traffic logistics SaaS platform.
+  - Led a Rails 6 to Rails 8 modernization on a large monolith of more than 250k lines.
+  - Defined backend engineering standards for testing, code organization, and linting to reduce onboarding friction and review churn.
+  - Worked in bilingual and international environments across France, Uruguay, and the United States, including research, teaching, and client-facing consulting work.
+engineering:
+  inspirations:
+    - label: Hacker News
+      url: https://news.ycombinator.com/news
+    - label: Will Larson's Irrational Exuberance
+      url: https://lethain.com/
+    - label: Thoughtworks Technology Radar
+      url: https://www.thoughtworks.com/radar
+    - label: The Register
+      url: https://www.theregister.com/
+    - label: The Pragmatic Engineer
+      url: https://www.pragmaticengineer.com/
+  opinions:
+    genai: I use it for pair programming, scaffolding, and repetitive implementation snippets.
+    likes: The convergence between expressiveness and type safety in modern languages, e.g., Go and Rust.
+    dislikes: The excessive amount of tooling around frontend development.
+    code_caption: A small Go concurrency pattern that still feels elegant to me because it models idle CPU time cleanly.
+    code_excerpt: |
+      select {
+        case <-ctx.Done():
+          cleanupAndClose()
+          return
+        case <-timeout.C:
+          go func() {
+            msgChan <- s.fetchDeadMessages()
+          }()
+        case msg <- msgChan:
+          go s.dispatch(msg)
+      }
+  next_steps:
+    - Go deeper into a language or technical approach that offers more direct control over system behavior.
+    - Currently learning Rust through personal projects and exploratory snippets.
+    - Specialize further in service-oriented and event-driven architectures, with a focus on building highly available and reliable systems under demanding load.

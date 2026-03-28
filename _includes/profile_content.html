@@ -10,4 +10,52 @@
       {% endfor %}
     </ul>
   </div>
+
+  <div class="card">
+    <h2>{{ profile.sections.highlights }}</h2>
+    <ul>
+      {% for item in profile.highlights %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>{{ profile.sections.engineering }}</h2>
+    <div class="compact-list">
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}Sources et inspirations{% else %}Sources and inspiration{% endif %}</h3>
+        <p class="link-list">
+          {% for item in profile.engineering.inspirations %}
+          <a href="{{ item.url }}">{{ item.label }}</a>{% unless forloop.last %} · {% endunless %}
+          {% endfor %}
+        </p>
+      </div>
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}IA générative{% else %}Generative AI{% endif %}</h3>
+        <p>{{ profile.engineering.opinions.genai }}</p>
+      </div>
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}Ce que j’aime{% else %}What I like{% endif %}</h3>
+        <p>{{ profile.engineering.opinions.likes }}</p>
+      </div>
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}Ce qui me déplaît{% else %}What I dislike{% endif %}</h3>
+        <p>{{ profile.engineering.opinions.dislikes }}</p>
+      </div>
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}Un extrait de code que j’aime{% else %}A code excerpt I still enjoy{% endif %}</h3>
+        <p>{{ profile.engineering.opinions.code_caption }}</p>
+        <pre><code>{{ profile.engineering.opinions.code_excerpt }}</code></pre>
+      </div>
+      <div class="compact-entry">
+        <h3>{% if lang == 'fr' %}Pour la suite{% else %}Next chapter{% endif %}</h3>
+        <ul>
+          {% for item in profile.engineering.next_steps %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>

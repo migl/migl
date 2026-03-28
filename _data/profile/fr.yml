@@ -8,3 +8,44 @@ hero:
     - Systèmes backend
     - SaaS B2B
     - PhD en IHM
+sections:
+  highlights: Profil
+  engineering: Vision de l’ingénierie
+highlights:
+  - Construction et montée en charge de systèmes backend en Go et Ruby, du conseil au SaaS logistique à fort trafic.
+  - Pilotage d’une modernisation Rails 6 vers Rails 8 sur un monolithe de plus de 250k lignes.
+  - Définition de standards backend sur les tests, l’organisation du code et le linting, adoptés par l’équipe.
+  - Parcours bilingue et international entre la France, l’Uruguay et les États-Unis, avec expérience de recherche, d’enseignement et de conseil pour des clients américains.
+engineering:
+  inspirations:
+    - label: Hacker News
+      url: https://news.ycombinator.com/news
+    - label: Will Larson’s Irrational Exuberance
+      url: https://lethain.com/
+    - label: Thoughtworks Technology Radar
+      url: https://www.thoughtworks.com/radar
+    - label: The Register
+      url: https://www.theregister.com/
+    - label: The Pragmatic Engineer
+      url: https://www.pragmaticengineer.com/
+  opinions:
+    genai: Je l’utilise pour le pair programming, le scaffolding et les snippets d’implémentation répétitifs.
+    likes: La convergence entre expressivité et sûreté de typage dans les langages modernes, par exemple Go et Rust.
+    dislikes: La quantité excessive d’outillage autour du développement front-end.
+    code_caption: Un petit motif de concurrence en Go qui me plaît toujours pour sa manière de gérer proprement les temps morts CPU.
+    code_excerpt: |
+      select {
+        case <-ctx.Done():
+          cleanupAndClose()
+          return
+        case <-timeout.C:
+          go func() {
+            msgChan <- s.fetchDeadMessages()
+          }()
+        case msg <- msgChan:
+          go s.dispatch(msg)
+      }
+  next_steps:
+    - Approfondir un langage ou une approche technique offrant un contrôle plus direct sur le comportement du système.
+    - J’apprends actuellement Rust à travers des projets personnels et des snippets d’exploration.
+    - Me spécialiser davantage dans les architectures orientées services et event-driven, avec un intérêt particulier pour les systèmes hautement disponibles et fiables sous forte charge.
