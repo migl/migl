@@ -1,16 +1,16 @@
-## Hi there 👋
+# Miguel Renom
 
-<!--
-**migl/migl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Jekyll website scaffold for GitHub Pages.
 
-Here are some ideas to get you started:
+## Local preview
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+bundle exec jekyll serve
+```
+
+## Docker run
+
+```bash
+docker build -t migl-jekyll-site .
+docker run --rm -p 4000:4000 -p 35729:35729 migl-jekyll-site
+```
